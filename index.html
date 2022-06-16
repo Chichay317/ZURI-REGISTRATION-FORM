@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" href="img/favicon-32x32.png" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Responsive Registration Form</title>
+  </head>
+  <body>
+    <main>
+      <div class="contain">
+        <div class="text">
+          <h2>Learn to code by watching others</h2>
+          <p>
+            See how experienced developers solve problems in real-time. Watching
+            scripted tutorials is great, but understanding how developers think
+            is invaluable.
+          </p>
+        </div>
+        <div class="form-box">
+          <div class="text-small">
+            <p>
+              <span class="span-1">Try it free 7 days</span> then $20/mo.
+              thereafter
+            </p>
+          </div>
+          <div class="form">
+            <form action="#" class="forms">
+              <div class="form-group">
+                <label for="name"></label>
+                <input
+                  type="text"
+                  name="name"
+                  class="firstname"
+                  id="name"
+                  placeholder="First name"
+                  value="Jonathan"
+                  required
+                />
+                <div class="error-image">
+                  <img src="img/icon-error.svg" alt="error-icon" />
+                </div>
+                <div class="errors">
+                  <p class="error">First Name cannot be empty</p>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="name"></label>
+                <input
+                  type="text"
+                  name="name"
+                  class="lastname"
+                  id="name"
+                  placeholder="Last Name"
+                  required
+                />
+                <div class="error-image">
+                  <img src="img/icon-error.svg" alt="error-icon" />
+                </div>
+                <div class="errors">
+                  <p class="error">Last Name cannot be empty</p>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="email"></label>
+                <input
+                  type="email"
+                  name="email"
+                  class="email"
+                  id="email"
+                  placeholder="Email Address"
+                  required
+                />
+                <div class="error-image">
+                  <img src="img/icon-error.svg" alt="error-icon" />
+                </div>
+                <div class="errors">
+                  <p class="error">Looks like this is not an email</p>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="password"></label>
+                <input
+                  type="password"
+                  name="password"
+                  class="password"
+                  id="password"
+                  placeholder="Password"
+                  required
+                />
+                <div class="error-image">
+                  <img src="img/icon-error.svg" alt="error-icon" />
+                </div>
+                <div class="errors">
+                  <p class="error">Password cannot be empty</p>
+                </div>
+              </div>
+            </form>
+            <div class="link">
+              <a href="#" class="link-p">CLAIM YOUR FREE TRIAL</a>
+            </div>
+            <p class="paragraph-end">
+              By clicking the button, you are agreeing to our
+              <span class="span-2">Terms and Services</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
